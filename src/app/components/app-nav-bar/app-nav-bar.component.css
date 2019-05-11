@@ -1,0 +1,23 @@
+nav{
+  /* position: fixed !important; */
+  background-color: #26a65b !important;
+
+}
+/* #navbarSupportedContent{
+  padding-left: 350px !important;
+} */
+@media only screen and (min-width:768px){
+  /* desctop veiw */
+  #navbarSupportedContent{
+    padding-left: 350px !important;
+  }
+
+}
+
+@media only screen and (min-width:910px){
+/* mobile view */
+
+
+
+
+}
