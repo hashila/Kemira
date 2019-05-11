@@ -1,0 +1,45 @@
+body, html {
+  height: 100%;
+}
+.img-fluid{
+        width: 1150px;
+        height: 400px;
+        border: 1px solid white;
+        border-radius: 15px;
+        padding: 0px;
+        margin-top: 5px;
+
+}
+#corbody{
+  width: 100% !important;
+  background-color: red;
+}
+
+html,
+body,
+header,
+
+
+@media (max-width: 740px) {
+
+}
+@media (min-width: 800px) and (max-width: 850px) {
+
+}
+
+
+
+@media (max-width: 991px) {
+
+}
+
+
+.prodcard{
+  display:inline-block;
+  padding: 2px !important;
+}
+
+
+h6 {
+  line-height: 1.7;
+}
