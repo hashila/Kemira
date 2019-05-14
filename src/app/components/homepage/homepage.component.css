@@ -10,34 +10,60 @@ body, html {
         margin-top: 5px;
 
 }
-#corbody{
-  width: 100% !important;
-  background-color: red;
-}
-
-html,
-body,
-header,
-
-
-@media (max-width: 740px) {
-
-}
-@media (min-width: 800px) and (max-width: 850px) {
-
-}
 
 
 
-@media (max-width: 991px) {
-
-}
 
 
 .prodcard{
   display:inline-block;
-  padding: 2px !important;
+  padding: 3px !important;
+  width: 20%;
 }
+#carouselExampleControls{
+  margin-top: 0px;
+}
+
+@media only screen and (min-width:400px){
+  /* desctop veiw */
+
+
+}
+
+@media only screen and (max-width:910px){
+/* mobile view */
+.prodcard{
+  /* display:inline-block; */
+  padding: 3px !important;
+  width: 100%;
+}
+#carouselExampleControls{
+  margin-top: 100px;
+}
+h4{
+  padding-top: 5px;
+  font-size: 13px;
+}
+
+}
+
+.barimage{
+  position: relative;
+  text-align: center;
+  color: white;
+  margin-top: -20px;
+}
+.centered {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.cardset1{
+  margin-top: -70px;
+}
+
 
 
 h6 {
