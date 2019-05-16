@@ -10,6 +10,8 @@ import { CareersComponent } from './components/careers/careers.component';
 import { ContactusComponent } from './components/contactus/contactus.component';
 import { AppRoutingModule } from './app-routing.module';
 import { FooterComponent } from './components/footer/footer.component';
+import { ProductsComponent } from './components/products/products.component';
+import { ServicesComponent } from './components/services/services.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { FooterComponent } from './components/footer/footer.component';
     OursegmentsComponent,
     CareersComponent,
     ContactusComponent,
-    FooterComponent
+    FooterComponent,
+    ProductsComponent,
+    ServicesComponent
   ],
   imports: [
     BrowserModule,
